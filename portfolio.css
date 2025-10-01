@@ -15,7 +15,7 @@
             background-color: var(--background-color);
             color: var(--text-color);
             line-height: 1.7;
-            overflow-x: hidden; /* Prevents horizontal scroll */
+            overflow-x: hidden; 
         }
 
         /* --- Utility Classes --- */
@@ -77,7 +77,6 @@
             box-shadow: 0 8px 25px var(--shadow-color);
         }
 
-        /* --- Header & Navigation (Glassmorphism) --- */
         .main-header {
             background: var(--glass-bg);
             backdrop-filter: blur(10px);
@@ -141,7 +140,6 @@
             color: var(--heading-color);
         }
 
-        /* --- Mobile Navigation --- */
         .hamburger {
             display: none;
             cursor: pointer;
@@ -157,7 +155,7 @@
             transition: all 0.3s ease-in-out;
         }
 
-        /* --- Hero Section with Animated Gradient --- */
+        /* --- Hero Section --- */
         #home {
             display: flex;
             align-items: center;
@@ -295,7 +293,6 @@
             height: 24px;
         }
 
-        /* --- Fade-in Animation on Scroll --- */
         .fade-in {
             opacity: 0;
             transform: translateY(30px);
