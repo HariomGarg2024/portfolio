@@ -192,6 +192,14 @@
         }
 
         /* About Section */
+
+        .about-text {
+             max-width: 800px;
+             margin: 0 auto;
+             text-align: left;
+             line-height: 1.7;
+             font-size: 18px;
+        }
         #about .container {
             display: flex;
             align-items: center;
