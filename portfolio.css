@@ -1,6 +1,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-               :root {
+        :root {
             --background-color: #f4f6fb;
             --text-color: #1e293b;
             --heading-color: #0f172a;
@@ -13,7 +13,6 @@
             --surface-color: #ffffff;
             --shadow: 0 10px 30px rgba(0,0,0,0.15);
             --shadow-color: rgba(0,0,0,0.2);
-        
             --white: #ffffff;
         }
         * {
@@ -26,7 +25,7 @@
             scroll-behavior: smooth;
         }
 
-                body {
+        body {
             font-family: 'Poppins', sans-serif;
             background-color: var(--background-color);
             color: var(--text-color);
@@ -168,8 +167,8 @@
             transition: all 0.3s ease-in-out;
         }
 
-        /* --- Hero Section --- */
-                #home {
+        /*  Hero Section  */
+        #home {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -192,7 +191,7 @@
             color: var(--primary-color);
         }
 
-        /* --- About Section --- */
+        /* About Section */
         #about .container {
             display: flex;
             align-items: center;
@@ -204,11 +203,11 @@
             height: 300px;
             object-fit: cover;
             border-radius: 50%;
-            border: 5px solid var(--primary-color);
-            box-shadow: 0 0 25px var(--shadow-color);
+            border: 5px solid #929ea6;
+            box-shadow: 0 0 25px rgba(0,0,0,0.2);
         }
 
-        /* --- Projects Section --- */
+        /* Projects Section */
         .project-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -252,7 +251,7 @@
             font-weight: 600;
         }
 
-        /* --- Contact Section --- */
+        /*  Contact Section */
         .contact-form {
             max-width: 700px;
             margin: 0 auto;
@@ -281,7 +280,7 @@
             border-color: var(--primary-color);
         }
 
-        /* --- Footer --- */
+        /* Footer */
         .main-footer {
             background: var(--surface-color);
             color: var(--text-color);
@@ -315,7 +314,7 @@
             transform: translateY(0);
         }
 
-        /* --- Responsive Design --- */
+        /*  Responsive Design */
         @media (max-width: 768px) {
             h1 { font-size: 2.8rem; }
             h2 { font-size: 2.2rem; }
