@@ -62,7 +62,7 @@
 
         .btn {
             display: inline-block;
-            background: linear-gradient(45deg, var(green), var(skyblue));
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
             color: var(--white);
             padding: 1rem 2rem;
             border-radius: 50px;
